@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto Regular";
+}
+
+.nav {
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.img {
+    width: 50%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-plus {
+    width: 10%;
+    background-color: red;
+    color: white;
+    
+}
+
+.maj {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.actuality {
+    width: 20%;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    
+}
+.actualités {
+    padding: 2rem;
+}
+.imgactuality{
+    width: 100%;
+}
+
+.newsletter {
+    padding: 2rem;
+    background-color: rgb(44, 40, 40);
+    color: white;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+}
+
+.btnmail {
+    background-color: red;
+}
+
+.logofooter {
+    width: 10%;
+}
+
+
+
