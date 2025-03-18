@@ -4,8 +4,8 @@
 }
 
 body {
-    width: 100%;
     margin: 0;
+    
     font-family: "Roboto Regular";
 }
 
@@ -13,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 .nav a {
     text-decoration: none;
@@ -43,7 +42,6 @@ p {
 }
 
 .banner {
-    width: 100%;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     display: flex;
@@ -64,17 +62,23 @@ p {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
+}
+.survivez {
+    text-align: center;
+}
+
+ul { 
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .btn-plus {
     width: 10%;
+    padding: 7px;
     background-color: red;
     color: white;
-    
+    border: 0;
+    border-radius: 5px;
 }
 
 .maj {
@@ -89,10 +93,10 @@ p {
     color: white;
     
 }
-.actualités {
+.actualities {
     padding: 2rem;
 }
-.imgactuality{
+.img-actuality{
     width: 100%;
 }
 
@@ -105,34 +109,30 @@ p {
 .mail {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .btnmail {
+    border: 0;
+    border-radius: 5px;
     background-color: red;
+    color: white;
+    padding: 7px;
 }
-
-
 
 footer {
     padding: 1rem;
     background-color: black ;
     color: white;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logofooter {
-    width: 8rem;
-    position: absolute;
-    left: 2%;
-    
+    width: 12rem; 
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
 .menu a {
     text-decoration: none;
     padding: 1rem;
@@ -140,7 +140,6 @@ footer {
 }
 
 .menu :not(:last-child) {
-
     border-right: solid 1px white;
 }
 
