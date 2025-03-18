@@ -1,21 +1,11 @@
 @font-face {
-    font-family: "Roboto Regular";
+    font-family: "Roboto";
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 body {
     margin: 0 auto;
-    font-family: "Roboto Regular";
-}
-
-a {
-    text-decoration: none;
-    padding: 1rem;
-    color: black;
-}
-
-li {
-    list-style: none;
+    font-family: "Roboto";
 }
 
 h2 {
@@ -27,13 +17,23 @@ h3 {
     margin: 1rem;
 }
 
+ul { 
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
 p {
     margin: 1rem;
 }
 
-ul { 
-    display: flex;
-    justify-content: center;
+a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
 }
 
 /* DEBUT HEADER */
@@ -78,7 +78,7 @@ ul {
 }
 
 .btn-plus {
-    width: 10%;
+    display: inline-block;
     padding: 7px;
     background-color: red;
     color: white;
@@ -121,7 +121,7 @@ ul {
     gap: 10px;
 }
 
-.btnmail {
+.btn-mail {
     border: 0;
     border-radius: 5px;
     background-color: red;
@@ -140,7 +140,7 @@ footer {
     align-items: center;
 }
 
-.logofooter {
+.logo-footer {
     width: 12rem; 
 }
 
