@@ -4,24 +4,14 @@
 }
 
 body {
-    margin: 0;
-    
+    margin: 0 auto;
     font-family: "Roboto Regular";
 }
 
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav a {
+a {
     text-decoration: none;
     padding: 1rem;
     color: black;
-}
-
-.nav :not(:last-child) {
-    border-right: solid 1px black;
 }
 
 li {
@@ -41,6 +31,24 @@ p {
     margin: 1rem;
 }
 
+ul { 
+    display: flex;
+    justify-content: center;
+}
+
+/* DEBUT HEADER */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav :not(:last-child) {
+    border-right: solid 1px black;
+}
+/* FIN HEADER */
+
+/* DEBUT MAIN / DEBUT HERO */
 .banner {
     background-image: url(../img/banner.jpg);
     background-size: cover;
@@ -56,7 +64,9 @@ p {
 .img {
     width: 50%;
 }
+/* MAIN / FIN HERO */
 
+/* MAIN / DEBUT SURVIVEZ */
 .container {
     width: 100%;
     max-width: 1280px;
@@ -67,11 +77,6 @@ p {
     text-align: center;
 }
 
-ul { 
-    display: flex;
-    justify-content: center;
-}
-
 .btn-plus {
     width: 10%;
     padding: 7px;
@@ -80,7 +85,9 @@ ul {
     border: 0;
     border-radius: 5px;
 }
+/* MAIN / FIN SURVIVEZ */
 
+/* MAIN / DEBUT ACTUALITES */
 .maj {
     display: flex;
     justify-content: center;
@@ -99,7 +106,9 @@ ul {
 .img-actuality{
     width: 100%;
 }
+/* MAIN / FIN ACTUALITES */
 
+/* MAIN / DEBUT NEWLETTER */
 .newsletter {
     padding: 2rem;
     background-color: rgb(44, 40, 40);
@@ -119,7 +128,9 @@ ul {
     color: white;
     padding: 7px;
 }
+/* MAIN / FIN NEWLETTER */
 
+/* DEBUT FOOTER */
 footer {
     padding: 1rem;
     background-color: black ;
@@ -142,6 +153,6 @@ footer {
 .menu :not(:last-child) {
     border-right: solid 1px white;
 }
-
+/* FIN FOOTER */
 
 
