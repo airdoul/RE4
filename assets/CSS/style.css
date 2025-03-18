@@ -24,6 +24,7 @@ ul {
 
 li {
     list-style: none;
+    text-align: center;
 }
 
 p {
@@ -155,4 +156,46 @@ footer {
 }
 /* FIN FOOTER */
 
+/* RESPONSIVE TABLETTE */
+
+@media screen and (max-width: 760px) {
+
+/* DEBUT HERO */
+    .banner {
+        height: 35vh;
+    }
+/* DEBUT ACTUALITE */
+    .maj {
+        flex-direction: column;
+    }
+    .actuality {
+        width: 100%;
+    }
+/* FIN ACTUALITE */
+
+/* DEBUT FOOTER */
+    .menu {
+        flex-direction: column;
+        text-align: center;   
+    }
+}
+
+/* RESPONSIVE TELEPHONE */
+
+@media screen and (max-width: 440px) {
+/* DEBUT HEADER */
+    ul { 
+        flex-direction: column;
+    }
+/* FIN HEADER */
+
+/* DEBUT FOOTER */
+    .menu {
+        flex-direction: column;
+    }
+    .nav :not(:last-child) {
+        border-right: none;
+    }
+/* FIN FOOTER */
+}
 
