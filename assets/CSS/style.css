@@ -3,6 +3,10 @@
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0 auto;
     font-family: "Roboto";
@@ -18,6 +22,7 @@ h3 {
 }
 
 ul { 
+    padding-left: 0;
     display: flex;
     justify-content: center;
 }
